@@ -9,7 +9,7 @@ showconcepthead();
             <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <img src="assets/images/belgie.png" alt="belgie" title="belgie">
+                        <img src="assets/images/belgie.jpg" alt="belgie" title="belgie">
                         <h4 class="center">Belgische bieren.</h4>
                         <h5 class="center">Omdat ons bier het lekkerst is.</h5>
                         <p class="light">Elke maand maken wij een selectie van Belgische, unieke bieren. Wij kloppen aan
@@ -19,7 +19,7 @@ showconcepthead();
                 </div>
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <img src="assets/images/bpost.png" alt="bpost" title="bpost">
+                        <img src="assets/images/bpost.jpg" alt="bpost" title="bpost">
                         <h4 class="center">Inclusief thuislevering.</h4>
                         <h5 class="center">Waarom uw zetel uitkomen?</h5>
                         <p class="light">Lekker bier, aan huis geleverd. Makkelijker wordt het niet. Wij versturen uw
@@ -74,7 +74,7 @@ showconcepthead();
             <div class="row">
                 <div class="col s12 m6">
                     <div class="icon-block">
-                        <img src="assets/images/belgie.png" alt="belgie" title="belgie">
+                        <img src="assets/images/belgie.jpg" alt="belgie" title="belgie">
                     </div>
                 </div>
                 <div class="col s12 m6">
@@ -103,7 +103,7 @@ showconcepthead();
             <div class="row">
                 <div class="col s12 m6">
                     <div class="icon-block">
-                        <img src="assets/images/bpost.png" title="bpost" alt="bpost">
+                        <img src="assets/images/bpost.jpg" title="bpost" alt="bpost">
                     </div>
                 </div>
                 <div class="col s12 m6">

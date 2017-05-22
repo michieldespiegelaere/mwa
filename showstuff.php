@@ -1,12 +1,11 @@
 <?php
-session_start();
 function showhomehead()
 {
     ?>
-    <nav class="white" role="navigation" xmlns="http://www.w3.org/1999/html">
+    <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a id="active" href="index.php">Home</a></li>
@@ -25,7 +24,7 @@ function showhomehead()
                 <li><a href="contact.php">Contacteer ons</a></li>
                 <li><a href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -37,7 +36,7 @@ function showconcepthead()
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
@@ -56,7 +55,7 @@ function showconcepthead()
                 <li><a href="contact.php">Contacteer ons</a></li>
                 <li><a href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -68,7 +67,7 @@ function showshophead()
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
@@ -87,7 +86,7 @@ function showshophead()
                 <li><a href="contact.php">Contacteer ons</a></li>
                 <li><a href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -99,7 +98,7 @@ function showkalenderhead()
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
@@ -118,7 +117,7 @@ function showkalenderhead()
                 <li><a href="contact.php">Contacteer ons</a></li>
                 <li><a href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -130,7 +129,7 @@ function showcontacthead()
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
@@ -149,7 +148,7 @@ function showcontacthead()
                 <li><a id="active" href="contact.php">Contacteer ons</a></li>
                 <li><a href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -161,7 +160,7 @@ function showbaskethead()
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php">
-                <img id=mainlogo src="assets/images/logo.png">
+                <img id=mainlogo src="assets/images/logo.jpg">
                 <p class="brand-logo">Boteljon</p></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
@@ -180,7 +179,7 @@ function showbaskethead()
                 <li><a href="contact.php">Contacteer ons</a></li>
                 <li><a id="active" href="winkelmandje.php">Winkelmandje</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            <a href="about:blank" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
         </div>
     </nav>
     <?php
@@ -196,27 +195,27 @@ function contactform()
                 
             </h2>
         </div>
-        <form class="col s12" method="post" action="send_mail.php" >
+        <form class="col s12" method="POST" action="contact.php" >
             <div class="row">
                 <div class="input-field col s6">
                     <input id="voornaam" type="text" class="validate" name="voornaam" autocomplete="off">
-                    <label for="voornaam">Voornaam</label>
+                    <label for="voornaam">Voornaam *</label>
                 </div>
                 <div class="input-field col s6">
                     <input id="achternaam" type="text" class="validate" name="achternaam" autocomplete="off">
-                    <label for="achternaam">Familienaam</label>
+                    <label for="achternaam">Familienaam *</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="email" type="email" class="validate" name="email" autocomplete="off">
-                    <label for="email">Email</label>
+                    <label for="email">Email *</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="phone" type="tel" class="validate" name="phone" autocomplete="off">
-                    <label for="phone">Telefoon</label>
+                    <label for="phone">Telefoon *</label>
                 </div>
             </div>
             <div class="row">
@@ -227,22 +226,23 @@ function contactform()
                         <option value="De levering">De levering</option>
                         <option value="Iets anders">Iets anders</option>
                     </select>
-                    <label>Ik heb een vraag over</label>
+                    <label>Ik heb een vraag over *</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input type="text" id="subject" class="validate" name="subject" autocomplete="off">
-                    <label for="subject">onderwerp</label>
+                    <label for="subject">onderwerp *</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
                     <textarea class="materialize-textarea" id="message" name="message" autocomplete="off"></textarea>
-                    <label for="message">Uw bericht</label>
+                    <label for="message">Uw bericht *</label>
                 </div>
             </div>
             <div id="viewPack" class="row center">
+                <p>* verplicht</p>
                 <button type="submit" id="download-button" name="send" class="btn-large waves-effect waves-light teal lighten-1" >Verstuur mijn bericht</button>
             </div>
         </form>

@@ -145,6 +145,12 @@ form{
   font-size: 1.5em;
 }
 
+.monthtext{
+  text-align: center;
+  color: #666666;
+  font-size: 1.5em;
+}
+
 .icon-block img{
   height: 200px;
   display: block;
@@ -205,4 +211,16 @@ form{
 
 .space{
     margin-bottom: 30px;
+}
+
+.card-title{
+    font-weight: bold !important;
+}
+
+.info{
+    text-align: center;
+}
+
+.border{
+    margin: 20px;
 }
