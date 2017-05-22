@@ -1,0 +1,208 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #666666;
+}
+
+
+nav .brand-logo{
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+#mainlogo{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+nav .brand-logo {
+  margin-top: 20px;
+  margin-left: 5%;
+  color: #666666;
+}
+
+.row  h3{
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.teal.lighten-1{
+  background-color: #C02942 !important;
+  border-radius: 15px;
+}
+
+#banner-text{
+  margin-top: 7%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.icon-block p{
+  text-align: center;
+}
+
+.button-collapse {
+  color: #C02942;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .parallax img {
+    left: 70%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .icon-block img {
+    height: 200px;
+    width: 80%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+ li #active{
+   background-color: #C02942;
+ }
+#active{
+  color: #FFFFFF;
+}
+
+.brown-text{
+  color: #C02942 !important;
+}
+
+.teal{
+  background-color: rgba(0,0,0,0.2) !important;
+}
+
+.page-footer{
+  padding-top: 0px !important;
+}
+
+.footer-copyright{
+  text-align: center;
+}
+
+form{
+  width: 80%;
+}
+
+.select-wrapper + label {
+  font-size: 1rem !important;
+}
+
+.dropdown-content li > span{
+  color: #C02942 !important;
+}
+
+#contacttext{
+  text-align: center;
+  color: #666666;
+  font-size: 1.5em;
+}
+
+.icon-block img{
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+
+#belgium{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.belgianmap{
+    display: block;
+    position: relative;
+    margin-right: 4%;
+    float: left;
+    width: 30.63%;
+}
+
+.belgianmap img{
+    height: 200px;
+}
+
+.belgiantext{
+    float: left;
+    display: block;
+    position: relative;
+    clear: right;
+    width: 65.33%;
+}
+
+.col_last{
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.clearfix:before, .clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+#belgium .row .col.s12{
+    width 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+#paypic{
+    width: 300px !important;
+}
+
+.space{
+    margin-bottom: 30px;
+}
